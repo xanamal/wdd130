@@ -1,10 +1,17 @@
 
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6rem;
 }
 
-header {
+header, footer {
     background-color: #333;
     color: #fff;
     padding: 10px 0; 
@@ -24,6 +31,10 @@ h1 {
     text-align: center;
 }
 
+h2 { 
+    border-bottom: 1px solid #222;
+}
+
 img {
     width: 100%;
     height: auto;
@@ -36,7 +47,20 @@ section {
     margin: 20px 0;
     border: 1px solid rgb(0 0 0 /10%);
     padding: 10%;
-    background-color: #ddd;
+    background-color: #abe;
     font-size: .9rem;
 
+}
+
+section p {
+    margin: 10px;
+
+}
+
+ul { 
+    margin: 10px 20px 0;
+}
+
+footer {
+    font-size: .9rem;
 }
