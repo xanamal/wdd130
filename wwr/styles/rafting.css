@@ -6,7 +6,7 @@
 }
 
 
-* * ::before, * ::after{
+* {
     margin: 0;
     padding: 10px;
     box-sizing: border-box;
@@ -94,6 +94,10 @@ footer {
 .hero img{
     width: 100%;
     display: block;
+}
+
+.hero article img {
+    float: right;
 }
 
 .socialmedia a {
