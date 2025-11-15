@@ -1,7 +1,16 @@
+:root {
+    --primary-color: steelblue;
+    
+}
+
+
 * {
     margin: 0;
     padding: 10px;
+    box-sizing: border-box;
 }
+
+
 
 body {
     font-family: Arial, sans-serif;
@@ -75,6 +84,16 @@ footer {
     height: 50px;
     width: 50px;
 }
+
+.hero {
+    position: relative;
+}
+
+.hero img{
+    width: 100%;
+    display: block;
+}
+
 
 
 
