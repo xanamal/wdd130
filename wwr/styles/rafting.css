@@ -79,7 +79,13 @@ footer {
 
 .hero article img {
     float: right;
-    width: 200px;
+    width: 150px;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -98,11 +104,21 @@ footer {
 .socialmedia {
     justify-self: end;
 
+
 }
 
-figure img {
-    width: 200px;
-
+section {
     display: flex;
     flex-direction: row;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+section figure {
+    text-align: center;
+}
+
+section img {
+    width: 150px;
+    height: auto;
 }
