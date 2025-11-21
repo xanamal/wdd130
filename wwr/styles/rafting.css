@@ -112,12 +112,6 @@ footer p {
     justify-self: end;
 }
 
-section,
-img {
-    display: grid;
-    grid-template-columns: row;
-}
-
 section h2 {
     text-align: center;
 }
