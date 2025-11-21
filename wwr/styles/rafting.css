@@ -1,5 +1,4 @@
 :root {
-    --primary-color: steelblue;
     --accent-colar: white;
     --text-color: black;
     --background-color: white;
@@ -34,6 +33,7 @@ nav a {
     padding: 1rem;
     background-color: var(--accent-colar);
 
+
 }
 
 nav {
@@ -61,6 +61,8 @@ footer {
     top: 1em;
     width: 100%;
     background-color: rgba(240, 248, 255, 0.435);
+    justify-content: center;
+    align-items: center;
 }
 
 .hero article {
@@ -95,4 +97,12 @@ footer {
 
 .socialmedia {
     justify-self: end;
+
+}
+
+figure img {
+    width: 200px;
+
+    display: flex;
+    flex-direction: row;
 }
