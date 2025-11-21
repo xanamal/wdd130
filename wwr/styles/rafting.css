@@ -25,7 +25,9 @@ footer {
 }
 
 header img {
-    height: 60px;
+    height: 70px;
+    display: grid;
+    grid-template-columns: 150px 1fr;
 }
 
 nav a {
@@ -39,6 +41,11 @@ nav a {
 nav {
     background-color: var(--background-color);
     padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+
 
 }
 
@@ -70,6 +77,7 @@ footer {
     bottom: 3em;
     width: 100%;
     background-color: rgba(240, 248, 255, 0.435);
+    display: flex;
 }
 
 .hero img {
@@ -102,22 +110,32 @@ footer p {
 
 .socialmedia {
     justify-self: end;
-
-
 }
 
-section {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    align-items: flex-start;
+section,
+img {
+    display: grid;
+    grid-template-columns: row;
 }
 
-section figure {
+section h2 {
     text-align: center;
 }
 
-section img {
+.fivepic {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.fivepic figure {
+    text-align: center;
     width: 150px;
+
+}
+
+.fivepic img {
+    width: 120px;
     height: auto;
 }
