@@ -1,5 +1,5 @@
 :root {
-    --accent-colar: white;
+    --accent-colar: darkgray;
     --text-color: black;
     --background-color: white;
 }
@@ -20,13 +20,16 @@ body {
 header,
 main,
 footer {
-    max-width: 1000px;
-    margin: 0 auto;
+    max-width: 1269px;
+    margin: auto;
 }
 
 header {
     display: grid;
-    grid-template-rows: auto;
+    grid-template-columns: 200px auto;
+    align-items: center;
+    background-color: white;
+    color: white;
 }
 
 header img {
@@ -35,23 +38,16 @@ header img {
     grid-template-columns: 150px 1fr;
 }
 
-nav a {
-    color: var(--text-color);
+.home-item nav {
     padding: 1rem;
-    background-color: var(--accent-colar);
-
-
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
 }
 
 nav {
     background-color: var(--background-color);
     padding: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-    align-items: center;
-
-
 }
 
 h1 {
@@ -96,10 +92,14 @@ footer {
     align-items: center;
 }
 
-footer p {
-    display: flex;
-    justify-content: center;
+footer {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
     align-items: center;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    margin-top: 100px;
 }
 
 
@@ -118,24 +118,32 @@ footer p {
     justify-self: end;
 }
 
-section h2 {
-    text-align: center;
-}
-
-.fivepic {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-.fivepic figure {
-    text-align: center;
-    width: 150px;
-
-}
-
-.fivepic img {
-    width: 120px;
+.history-part img {
+    width: 255px;
     height: auto;
+}
+
+.history-part {
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    gap: 2em;
+    align-items: center;
+    text-align: justify;
+}
+
+
+
+.letsgo img {
+    margin: 50px 0;
+    display: grid;
+    grid-template-rows: 20%;
+}
+
+.history-part,
+.letsgo {
+    grid-column: 1/-1;
+    grid-row: 1;
+    justify-content: center;
+    padding: 1em 0;
 }
