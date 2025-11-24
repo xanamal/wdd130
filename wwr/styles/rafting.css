@@ -24,6 +24,11 @@ footer {
     margin: 0 auto;
 }
 
+header {
+    display: grid;
+    grid-template-rows: auto;
+}
+
 header img {
     height: 70px;
     display: grid;
@@ -88,6 +93,7 @@ footer {
 .hero article img {
     float: right;
     width: 150px;
+    align-items: center;
 }
 
 footer p {
