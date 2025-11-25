@@ -1,6 +1,6 @@
 :root {
     --text-color: black;
-    --background-color: white;
+    --background-color: steelblue;
 }
 
 
@@ -37,12 +37,16 @@ header img {
     grid-template-columns: 150px 1fr;
 }
 
-.home-item nav a {
+nav a {
     padding: 1rem;
     font-size: 1.5rem;
-    display: flex;
-    align-items: center;
+    color: #fff;
+    text-decoration: none;
+}
 
+nav a:hover {
+    background-color: #fff;
+    color: steelblue;
 }
 
 nav {
@@ -121,7 +125,7 @@ footer {
 
 .socialmedia {
     grid-column: 3;
-
+    background-color: #fff;
 }
 
 .history-part img {
