@@ -27,21 +27,22 @@ header {
     display: grid;
     grid-template-columns: 200px auto;
     align-items: center;
-    background-color: white;
-    color: white;
+    background-color: var(--background-color);
+    color: var(--text-color);
 }
 
 header img {
-    height: 70px;
+    height: 150px;
     display: grid;
     grid-template-columns: 150px 1fr;
 }
 
-.home-item nav {
+.home-item nav a {
     padding: 1rem;
     font-size: 1.5rem;
     display: flex;
     align-items: center;
+
 }
 
 nav {
@@ -49,7 +50,7 @@ nav {
     padding: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: right;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -65,30 +66,34 @@ h1 {
 
 .hero h1 {
     position: absolute;
-    top: 1em;
+    top: 20px;
     width: 100%;
     background-color: rgba(240, 248, 255, 0.435);
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .hero article {
     position: absolute;
     bottom: 3em;
-    width: 100%;
+    left: 3em;
+    right: 3em;
     background-color: rgba(240, 248, 255, 0.435);
-    display: flex;
 }
 
 .hero img {
     width: 100%;
     display: block;
+
 }
 
 .hero article img {
     float: right;
     width: 150px;
-    align-items: center;
+    display: flex;
+    justify-content: right;
+
 }
 
 footer {
@@ -115,12 +120,15 @@ footer {
 }
 
 .socialmedia {
-    justify-self: end;
+    grid-column: 3;
+
 }
 
 .history-part img {
     width: 255px;
     height: auto;
+    display: grid;
+
 }
 
 .history-part {
@@ -129,21 +137,35 @@ footer {
     grid-template-columns: 2fr 1fr 2fr;
     gap: 2em;
     align-items: center;
-    text-align: justify;
 }
 
-
-
-.letsgo img {
-    margin: 50px 0;
-    display: grid;
-    grid-template-rows: 20%;
-}
-
-.history-part,
-.letsgo {
+.history-part h2,
+.letsgo h2 {
     grid-column: 1/-1;
     grid-row: 1;
-    justify-content: center;
     padding: 1em 0;
+    text-align: center;
+}
+
+.letsgo {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1em;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+}
+
+figcaption {
+    text-align: center;
+}
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
 }
