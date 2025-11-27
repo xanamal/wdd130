@@ -173,3 +173,19 @@ article {
     margin: 16px;
     padding: 8px;
 }
+
+/* this is start of contact us page */
+
+.three {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+    align-items: center;
+}
+
+.three h2 {
+    grid-column: 1/-1;
+    grid-row: 1;
+    padding: 1em 0;
+    text-align: center;
+}
