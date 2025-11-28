@@ -189,3 +189,16 @@ article {
     padding: 1em 0;
     text-align: center;
 }
+
+.title {
+    grid-column: 1/-1;
+    grid-row: 1;
+    padding: 1em 0;
+    text-align: center;
+}
+
+iframe {
+    width: 600px;
+    height: 450px;
+    border: 0;
+}

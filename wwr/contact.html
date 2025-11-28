@@ -23,48 +23,58 @@
         </nav>
     </header>
 
-    <main class="contact">
+    <main>
 
-        <h1>Exiting Expeditions</h1>
-        <p>123 Main River Road</p>
-        <p>Gilbert, Arizona</p>
-        <p>+1 999-999-9999</p>
-        <p>info@exitingexpeditions.com</p>
-        <div class="map">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11501.600818124163!2d-111.25939732092449!3d33.57884998609739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872966bcc8b5b42d%3A0x9d2367cfe83ea7e0!2sSalt%20River!5e0!3m2!1sen!2sus!4v1764129279914!5m2!1sen!2sus"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h1 class="title">Exiting Expeditions</h1>
+        <p class="title">123 Main River Road</p>
+        <p class="title">Gilbert, Arizona</p>
+        <p class="title">+1 999-999-9999</p>
+        <p class="title">info@exitingexpeditions.com</p>
+        <div class="frame">
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11501.600818124163!2d-111.25939732092449!3d33.57884998609739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872966bcc8b5b42d%3A0x9d2367cfe83ea7e0!2sSalt%20River!5e0!3m2!1sen!2sus!4v1764129279914!5m2!1sen!2sus"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+
+
+            <form>
+                <div class="contact-item">
+                    <label for="q1">Name</label>
+                    <input type="text" id="q1" name="q1">
+                </div>
+            </form>
+            <form>
+                <div class="contact-item">
+                    <label for="q2">Email</label>
+                    <input type="text" id="q2" name="q2">
+                </div>
+            </form>
+            <form>
+                <div class="contact-item">
+                    <label for="q3">Message Purpose</label>
+                    <input type="radio" name="q3" id="q3">
+                    <input type="radio" name="q3" id="q3">
+                    <input type="radio" name="q3" id="q3">
+                </div>
+            </form>
+            <form>
+                <div class="contact-item">
+                    <label for="q4">Message</label>
+                    <textarea type="text" id="q4" name="q4"></textarea>
+                </div>
+            </form>
+            <form>
+                <div class="contact-item">
+                    <label for="q1">Please Subscribe To Our Monthly Newsletter</label>
+                    <input type="checkbox" id="" name="">
+                </div>
+            </form>
+            <form>
+                <button type="submit">Get In touch!</button>
+            </form>
         </div>
-
-
-        <form class="message">
-            <div class="contact-item">
-                <label for="q1">Name</label>
-                <input type="text">
-            </div>
-            <div class="contact-item">
-                <label for="q2">Email</label>
-                <input type="text">
-            </div>
-            <div class="contact-item">
-                <label for="q1">Message Purpose</label>
-                <input type="radio">
-                <input type="radio">
-                <input type="radio">
-            </div>
-            <div class="contact-item">
-                <label for="q4">Message</label>
-                <textarea type="text" id="q4" name="q4"></textarea>
-            </div>
-            <div class="contact-item">
-                <label for="q1">Please Subscribe To Our Monthly Newsletter</label>
-                <input type="checkbox">
-            </div>
-
-            <button type="submit">Get In touch!</button>
-        </form>
-
 
         <section class="three">
             <h2>Adventure Awaits You!</h2>
