@@ -202,3 +202,9 @@ iframe {
     height: 450px;
     border: 0;
 }
+
+.contact-item {
+    margin: auto;
+    padding: 10px;
+    align-items: center;
+}
