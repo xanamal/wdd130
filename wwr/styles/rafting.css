@@ -198,13 +198,18 @@ article {
 }
 
 iframe {
-    width: 600px;
-    height: 450px;
+    grid-column: 1 / -1;
+    grid-row: 2;
     border: 0;
+    width: 450px;
+    height: 400px;
 }
 
-.contact-item {
-    margin: auto;
-    padding: 10px;
+.frame {
+    grid-column: 2;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 1rem;
     align-items: center;
 }
