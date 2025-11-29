@@ -213,3 +213,9 @@ iframe {
     gap: 1rem;
     align-items: center;
 }
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+}
