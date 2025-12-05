@@ -219,3 +219,27 @@ button {
     font-size: 1.2rem;
     border-radius: 8px;
 }
+
+.indexform {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border: var(--text-color);
+    color: var(--text-color);
+
+}
+
+.contact-index {
+    padding: 2em;
+    background-color: var(--background-color);
+    text-align: center;
+    border-radius: 8px;
+
+}
+
+.index-sec {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+    align-items: center;
+}

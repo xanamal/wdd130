@@ -1,18 +1,44 @@
+:root {
+    --text-color: black;
+    --background-color: steelblue;
+}
 
-* { 
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
 }
 
-nav{
+header,
+main,
+footer {
+    max-width: 1269px;
+    margin: auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 200px auto;
+    align-items: center;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: steelblue;
+}
+
+nav {
     background-color: steelblue;
     padding: 1rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
+
 nav a {
     display: block;
     padding: 0.5rem;
@@ -23,16 +49,15 @@ nav a {
 }
 
 h1 {
-    color: steelblue
-    padding .5rem
-
+    color: steelblue padding .5rem
 }
+
 main {
-    max-width: 640px;
+    max-width: 1000px;
 }
 
 main img {
-    width: 150;
+    width: 300px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
@@ -45,29 +70,27 @@ p {
 
 aside {
     width: 20em;
-    margin: 1em;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1em;
+    margin: 1rem;
+    border: 20px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
     background-color: #eee;
     color: #333;
     text-align: center;
+
 }
 
 aside img {
     width: 200px;
     height: auto;
 }
-header, footer {
-    max-width: 840px;
-    margin: 0 auto;
+
+footer {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    align-items: center;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    margin-top: 100px;
 
 }
-
-
-
-
-
-
-
-
-
