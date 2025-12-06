@@ -243,3 +243,31 @@ button {
     gap: 1em;
     align-items: center;
 }
+
+.trips-sec h2 {
+    grid-column: 1/-1;
+    grid-row: 1;
+    padding: 1em 0;
+    text-align: center;
+}
+
+
+.trips-sec {
+    display: grid;
+    grid-template-columns: 2fr 1fr 4fr;
+    gap: 1em 5px;
+
+}
+
+.page1 {
+    background-color: black;
+    color: #fff;
+    border: 10px;
+    width: 120px;
+    display: grid;
+    justify-content: center;
+
+
+
+
+}
